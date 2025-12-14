@@ -7,16 +7,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at top, #e40ecb, #07ebd0);
+  background: radial-gradient(circle at top, #f4f4f5, #02629a);
 }
 
 .card {
   width: 100%;
   max-width: 960px;
-  background: rgba(179, 73, 240, 0.9);
-  border: 1px solid #f57de5;
+  background: rgba(6, 61, 145, 0.9);
+  border: 1px solid #076ece;
   border-radius: 18px;
-  box-shadow: 0 30px 80px rgba(156, 68, 232, 0.9);
+  box-shadow: 0 30px 80px rgba(202, 199, 205, 0.9);
   display: flex;
   flex-direction: column;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .side {
-  background: #b963e3;
+  background: #f3f6f8;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ body {
   height: 200px;
   border-radius: 16px;
   overflow: hidden;
-  background: #eb8cf8;
+  background: #03307e;
   margin-bottom: 26px;
 }
 
@@ -76,19 +76,19 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #0eeeea;
+  color: #8e0328;
 }
 
 .main {
   flex: 1;
   padding: 32px;
-  color: #e4eaf8;
+  color: #f3f6f8;
 }
 
 .tag {
   letter-spacing: 0.3em;
   font-size: 12px;
-  color: #050569;
+  color:#f3f6f8;
   margin-bottom: 8px;
 }
 
@@ -99,18 +99,18 @@ body {
 }
 
 .accent {
-  color: #09186e;
+  color: #07114b;
 }
 
 .subtitle {
   font-size: 18px;
-  color: #413bb1;
+  color: #ceccf1;
   margin: 0 0 16px;
 }
 
 .text {
   font-size: 18px;
-  color: #ecfdfe;
+  color: #d7e0e0;
   max-width: 460px;
   margin-bottom: 24px;
 }
@@ -130,35 +130,36 @@ body {
 }
 
 .btn.primary {
-  background: #7d0eed;
+  background: #7f94d3;
   color: white;
   border: none;
 }
 
 .btn.primary:hover {
-  background: #1a0d90;
+  background: #07114b;
 }
 
 .btn.outline {
-  border: 1px solid #0e3f9a;
-  color: #18079a;
+  border: 1px solid #b6cefa;
+  color: #9d95db;
   background: transparent;
 }
 
 .btn.outline:hover {
-  border-color: #3c9aec;
+  border-color: #8ac5f9;
   color: #5498ec;
 }
 .section {
   padding: 40px 32px;
-  color: #b6c9ef;
+  color: #6578a1;
 }
 .section h2 {
   margin: 0 0 12px;
   font-size: 22px;
+  color:  #66caf8
 }
 .section p {
   margin: 0;
   font-size: 14px;
-  color: #080c12;
+  color: #f5f2ed;
 }
